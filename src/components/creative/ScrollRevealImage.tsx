@@ -1,0 +1,2 @@
+import {motion,useReducedMotion} from 'motion/react';
+export function ScrollRevealImage({src,alt,className=''}:{src:string;alt:string;className?:string}){const reduced=useReducedMotion();return <div className={`overflow-hidden rounded-2xl ${className}`}><motion.img src={src} alt={alt} loading="lazy" className="h-full w-full object-cover" initial={reduced?false:{scale:1.15,opacity:.6}} whileInView={{scale:1,opacity:1}} viewport={{once:true}} transition={{duration:1,ease:'easeOut'}}/></div>}

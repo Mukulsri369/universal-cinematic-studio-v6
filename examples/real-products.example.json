@@ -1,0 +1,19 @@
+{
+  "brand": "YOUR REAL BRAND",
+  "category": "lighting",
+  "headline": "Illumination has a new form.",
+  "summary": "Replace this text with claims about your real products.",
+  "products": [
+    {
+      "id": "sku-001",
+      "name": "YOUR PRODUCT NAME",
+      "description": "Use verified product specifications only.",
+      "modelPath": "/models/your-product.glb",
+      "imagePath": "/images/your-product.webp",
+      "price": null,
+      "currency": "INR",
+      "purchaseUrl": null,
+      "concept": "lamp"
+    }
+  ]
+}

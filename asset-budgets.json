@@ -1,0 +1,12 @@
+{
+  "glbPreferredMaxMiB": 8,
+  "imagePreferredMaxMiB": 1.5,
+  "preferredMaxVertices": 150000,
+  "preferredMaxTextures": 12,
+  "heroLcpTargetSeconds": 2.5,
+  "interactionInpTargetMs": 200,
+  "cumulativeLayoutShiftTarget": 0.1,
+  "mobileDprMax": 1.15,
+  "desktopDprMax": 1.7,
+  "note": "Targets are quality budgets, not measured performance results. Benchmark on actual devices after installation."
+}

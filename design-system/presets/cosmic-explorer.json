@@ -1,0 +1,14 @@
+{
+  "name": "cosmic-explorer",
+  "colors": {
+    "background": "#030712",
+    "surface": "#0B1730",
+    "primary": "#38BDF8",
+    "accent": "#A78BFA",
+    "text": "#E2E8F0"
+  },
+  "font": "Space Grotesk",
+  "radius": "18px",
+  "motion": "GPU-conscious 3D, reduced-motion fallback",
+  "layout": "immersive hero, floating panels"
+}

@@ -1,0 +1,2 @@
+import {Button} from './button';
+export function Pagination({page,pages,onChange}:{page:number;pages:number;onChange:(next:number)=>void}){return <nav aria-label="Pagination" className="flex items-center gap-3"><Button variant="outline" size="sm" disabled={page<=1} onClick={()=>onChange(Math.max(1,page-1))}>Previous</Button><span className="text-sm text-white/65">Page {page} of {pages}</span><Button variant="outline" size="sm" disabled={page>=pages} onClick={()=>onChange(Math.min(pages,page+1))}>Next</Button></nav>}

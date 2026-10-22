@@ -1,0 +1,2 @@
+import type {ReactNode} from 'react';export type Crumb={label:string;href?:string};
+export function Breadcrumb({items,separator=' / '}:{items:Crumb[];separator?:ReactNode}){return <nav aria-label="Breadcrumb"><ol className="flex flex-wrap items-center gap-2 text-sm text-white/60">{items.map((item,i)=><li key={i} className="flex gap-2 items-center">{i>0&&<span aria-hidden="true">{separator}</span>}{item.href?<a className="hover:text-violet-300" href={item.href}>{item.label}</a>:<span aria-current="page" className="text-white">{item.label}</span>}</li>)}</ol></nav>}

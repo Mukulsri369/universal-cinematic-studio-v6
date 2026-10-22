@@ -1,0 +1,2 @@
+import type {ReactNode} from 'react';import {motion,useReducedMotion} from 'motion/react';
+export function StaggerGrid({children,className=''}:{children:ReactNode[];className?:string}){const reduced=useReducedMotion();return <div className={className}>{children.map((child,i)=><motion.div key={i} initial={reduced?false:{opacity:0,y:25}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.15}} transition={{duration:.45,delay:i*.07}}>{child}</motion.div>)}</div>}

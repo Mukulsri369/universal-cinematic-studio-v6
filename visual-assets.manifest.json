@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "siteBrand": "MAISON V\u00c9RA \u00b7 FICTIONAL DEMO",
+  "hero": {
+    "path": null,
+    "kind": "campaign-photo",
+    "source": "pending",
+    "rightsStatus": "pending",
+    "fictionalCampaign": true,
+    "alt": "Editorial campaign featuring luxury fashion styling",
+    "desiredPath": "/images/demo/hero.png"
+  },
+  "products": [
+    {
+      "productId": "mv-footwear-01",
+      "desiredPath": "/images/demo/mv-footwear-01.png",
+      "kind": "product-photo",
+      "source": "pending",
+      "rightsStatus": "pending",
+      "fictionalCampaign": true,
+      "alt": "Aether Carbon Runner editorial product photograph",
+      "model3DPath": null,
+      "path": null
+    },
+    {
+      "productId": "mv-clothing-02",
+      "desiredPath": "/images/demo/mv-clothing-02.png",
+      "kind": "product-photo",
+      "source": "pending",
+      "rightsStatus": "pending",
+      "fictionalCampaign": true,
+      "alt": "Nocturne Sculpted Cashmere Trench editorial product photograph",
+      "model3DPath": null,
+      "path": null
+    },
+    {
+      "productId": "mv-watch-03",
+      "desiredPath": "/images/demo/mv-watch-03.png",
+      "kind": "product-photo",
+      "source": "pending",
+      "rightsStatus": "pending",
+      "fictionalCampaign": true,
+      "alt": "Chronos Calibre IX Tourbillon editorial product photograph",
+      "model3DPath": null,
+      "path": null
+    },
+    {
+      "productId": "mv-accessory-04",
+      "desiredPath": "/images/demo/mv-accessory-04.png",
+      "kind": "product-photo",
+      "source": "pending",
+      "rightsStatus": "pending",
+      "fictionalCampaign": true,
+      "alt": "Solstice Titanium Optical Frame editorial product photograph",
+      "model3DPath": null,
+      "path": null
+    },
+    {
+      "productId": "mv-accessory-05",
+      "desiredPath": "/images/demo/mv-accessory-05.png",
+      "kind": "product-photo",
+      "source": "pending",
+      "rightsStatus": "pending",
+      "fictionalCampaign": true,
+      "alt": "Aurelia Interlocking Vermeil Rings editorial product photograph",
+      "model3DPath": null,
+      "path": null
+    },
+    {
+      "productId": "mv-accessory-06",
+      "desiredPath": "/images/demo/mv-accessory-06.png",
+      "kind": "product-photo",
+      "source": "pending",
+      "rightsStatus": "pending",
+      "fictionalCampaign": true,
+      "alt": "Nomad Architectural Weekender Pack editorial product photograph",
+      "model3DPath": null,
+      "path": null
+    }
+  ],
+  "mode": "fictional-demo",
+  "editorials": []
+}

@@ -1,0 +1,2 @@
+import {Accordion,AccordionContent,AccordionItem,AccordionTrigger} from '@/components/ui/accordion';
+export function FaqSection({items}:{items:{question:string;answer:string}[]}){return <Accordion type="single" collapsible>{items.map((item,i)=><AccordionItem key={i} value={`faq-${i}`}><AccordionTrigger>{item.question}</AccordionTrigger><AccordionContent>{item.answer}</AccordionContent></AccordionItem>)}</Accordion>}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "presentationMode": "fictional-demo",
+  "commercialRequirements": {
+    "photorealImageryRequired": true,
+    "allowSvgAsProductPhoto": false,
+    "allowProceduralConceptAsHeroWhenModelMissing": false,
+    "allowFictionalProductClaims": false,
+    "minProductPhotoWidth": 720,
+    "minHeroPhotoWidth": 1200,
+    "requireTraceableProvenance": true
+  },
+  "assetProvision": {
+    "imageGenerationEnabled": false,
+    "imageGenerationProvider": "opt-in Gemini API via server-side media:generate CLI",
+    "assetsAvailable": false,
+    "generationNeverRunsInBuild": true,
+    "costApprovalRequired": true
+  },
+  "visualReadiness": "BLOCKED_UNTIL_DEMO_PHOTOS_GENERATED_AND_REVIEWED",
+  "notes": "Static checks can validate raster files and provenance but not human-perceived photorealism. Do visual review in browser."
+}

@@ -1,0 +1,3 @@
+import type {ReactNode} from 'react';
+export type DockItem={label:string;href:string;icon:ReactNode};
+export function FloatingDock({items,className=''}:{items:DockItem[];className?:string}){return <nav aria-label="Quick navigation" className={`flex w-fit gap-2 rounded-2xl border border-white/15 bg-slate-950/85 p-2 backdrop-blur ${className}`}>{items.map(item=><a key={item.href} href={item.href} aria-label={item.label} title={item.label} className="grid size-11 place-items-center rounded-xl text-white/70 transition-all hover:-translate-y-1 hover:bg-violet-500/20 hover:text-white focus-visible:outline-2 focus-visible:outline-violet-400">{item.icon}</a>)}</nav>}

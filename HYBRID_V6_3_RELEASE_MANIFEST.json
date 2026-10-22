@@ -1,0 +1,23 @@
+{
+  "version": "6.3.0",
+  "sourceBase": "Universal Cinematic Studio v6.2 Visual Recovery",
+  "sourceFiles": 195,
+  "newOrModifiedFiles": 26,
+  "removedFiles": [
+    "public/images/maison-coat.svg",
+    "public/images/maison-eyewear.svg",
+    "public/images/maison-pack.svg",
+    "public/images/maison-rings.svg",
+    "public/images/maison-sneaker.svg",
+    "public/images/maison-watch.svg",
+    "tsconfig.tsbuildinfo"
+  ],
+  "verification": {
+    "offlineSuite": "PASS 18/18",
+    "importAudit": "PASS",
+    "TSXsyntax": "PASS 90 files",
+    "liveImageGeneration": "NOT RUN",
+    "productionBuild": "NOT VERIFIED",
+    "browserVisualQuality": "NOT VERIFIED"
+  }
+}

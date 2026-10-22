@@ -1,0 +1,482 @@
+[
+  {
+    "id": "luxury-product",
+    "name": "Luxury Product Reveal",
+    "category": "product",
+    "eyebrow": "OBJECTS OF DESIRE",
+    "headline": "An icon,",
+    "emphasis": "reimagined.",
+    "summary": "Studio-lit materials, bold typography and precise cinematic interactions.",
+    "accent": "#e4bb83",
+    "secondary": "#6f4535",
+    "background": "#0c0b0c",
+    "foreground": "#f6efe4",
+    "concept": "sculpture",
+    "layout": "editorial",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "lighting-studio",
+    "name": "Architectural Lighting",
+    "category": "lighting",
+    "eyebrow": "SCULPTED LIGHT",
+    "headline": "Light becomes",
+    "emphasis": "architecture.",
+    "summary": "Atmospheric interiors, luminous materials and a gallery-grade lighting presentation.",
+    "accent": "#f4ca85",
+    "secondary": "#b78066",
+    "background": "#100f12",
+    "foreground": "#fbf3e3",
+    "concept": "lamp",
+    "layout": "gallery",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "jewelry-atelier",
+    "name": "Fine Jewellery Atelier",
+    "category": "jewelry",
+    "eyebrow": "THE ART OF DETAIL",
+    "headline": "A quieter kind",
+    "emphasis": "of brilliance.",
+    "summary": "Macro detail, meticulous reflections and editorial luxury pacing.",
+    "accent": "#edd6ad",
+    "secondary": "#ab8a70",
+    "background": "#141214",
+    "foreground": "#fff7ea",
+    "concept": "rings",
+    "layout": "editorial",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "automotive-motion",
+    "name": "Automotive Concept",
+    "category": "automotive",
+    "eyebrow": "ENGINEERED TO MOVE",
+    "headline": "Form meets",
+    "emphasis": "velocity.",
+    "summary": "Wide-screen staging, kinetic typography and confident moving camera.",
+    "accent": "#d6e8ef",
+    "secondary": "#7293aa",
+    "background": "#0b1119",
+    "foreground": "#ebf4fa",
+    "concept": "vehicle",
+    "layout": "wide",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "fashion-runway",
+    "name": "Fashion Editorial",
+    "category": "fashion",
+    "eyebrow": "NEW SEASON / NEW PERSPECTIVE",
+    "headline": "Wear the",
+    "emphasis": "unexpected.",
+    "summary": "Runway-inspired editorial movement, striking composition and graceful reveals.",
+    "accent": "#f0c8bb",
+    "secondary": "#b16866",
+    "background": "#181215",
+    "foreground": "#faefed",
+    "concept": "fabric",
+    "layout": "editorial",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "cosmic-experience",
+    "name": "Cosmic Storytelling",
+    "category": "cosmic",
+    "eyebrow": "JOURNEY THROUGH SPACE",
+    "headline": "Beyond the",
+    "emphasis": "ordinary.",
+    "summary": "Immersive planetary scenes, dramatic scale and scientific storytelling.",
+    "accent": "#b0a5ff",
+    "secondary": "#6960b3",
+    "background": "#080b19",
+    "foreground": "#eeecff",
+    "concept": "planet",
+    "layout": "wide",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "creator-commerce",
+    "name": "Creator Affiliate Store",
+    "category": "affiliate",
+    "eyebrow": "CURATED FOR YOU",
+    "headline": "Your edit,",
+    "emphasis": "your universe.",
+    "summary": "A creator-curated 3D storefront with genuine product and affiliate links.",
+    "accent": "#eec79c",
+    "secondary": "#bb7e6d",
+    "background": "#161014",
+    "foreground": "#fff0e7",
+    "concept": "sculpture",
+    "layout": "grid",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "tech-launch",
+    "name": "Future Technology Launch",
+    "category": "tech",
+    "eyebrow": "ENGINEERED FOR TOMORROW",
+    "headline": "The future",
+    "emphasis": "takes form.",
+    "summary": "Sculptural technology presentation, tactile microinteractions and confident motion.",
+    "accent": "#8ee4e4",
+    "secondary": "#388ba3",
+    "background": "#06131a",
+    "foreground": "#e2fafd",
+    "concept": "device",
+    "layout": "wide",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "architecture-gallery",
+    "name": "Architecture & Interiors",
+    "category": "architecture",
+    "eyebrow": "SPACES WITH A SOUL",
+    "headline": "Designed to",
+    "emphasis": "be lived in.",
+    "summary": "Measured photography space, material-driven 3D and quiet elegance.",
+    "accent": "#cec2a7",
+    "secondary": "#877b65",
+    "background": "#111410",
+    "foreground": "#f4f0e9",
+    "concept": "architecture",
+    "layout": "gallery",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "wellness-organic",
+    "name": "Wellness & Lifestyle",
+    "category": "wellness",
+    "eyebrow": "A GENTLER RITUAL",
+    "headline": "Make room",
+    "emphasis": "to breathe.",
+    "summary": "Natural palettes, soft movement and clear, accessible product storytelling.",
+    "accent": "#beddb9",
+    "secondary": "#6d9d75",
+    "background": "#0d1812",
+    "foreground": "#f2fbf0",
+    "concept": "bottle",
+    "layout": "editorial",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "saas-interactive",
+    "name": "Immersive SaaS",
+    "category": "saas",
+    "eyebrow": "BETTER BY DESIGN",
+    "headline": "Workflows,",
+    "emphasis": "transformed.",
+    "summary": "Interactive product visualization, confident typographic hierarchy and clear CTAs.",
+    "accent": "#a5d0ff",
+    "secondary": "#4d7cbd",
+    "background": "#0c101b",
+    "foreground": "#ecf4ff",
+    "concept": "device",
+    "layout": "grid",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "art-exhibition",
+    "name": "Interactive Art Exhibit",
+    "category": "art",
+    "eyebrow": "NEW WAYS OF SEEING",
+    "headline": "Step inside",
+    "emphasis": "the unreal.",
+    "summary": "Experimental immersive storytelling with accessibility and performance safeguards.",
+    "accent": "#ffb0db",
+    "secondary": "#af579f",
+    "background": "#16091a",
+    "foreground": "#fff0fa",
+    "concept": "sculpture",
+    "layout": "gallery",
+    "chapters": [
+      "An introduction to the extraordinary",
+      "Design worth exploring",
+      "Thoughtfully made for real life"
+    ]
+  },
+  {
+    "id": "footwear-lab",
+    "name": "Footwear Innovation Studio",
+    "category": "footwear",
+    "eyebrow": "THE NEXT STEP",
+    "headline": "Engineered for",
+    "emphasis": "every move.",
+    "summary": "An original cinematic footwear experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#c8f3e0",
+    "secondary": "#365b57",
+    "background": "#091b1a",
+    "foreground": "#f0fff7",
+    "concept": "sneaker",
+    "layout": "wide",
+    "chapters": [
+      "Precision in every curve",
+      "Materials in motion",
+      "Built to move"
+    ]
+  },
+  {
+    "id": "fragrance-noir",
+    "name": "Fragrance & Perfume Maison",
+    "category": "fragrance",
+    "eyebrow": "A SCENT WITH A STORY",
+    "headline": "Invisible art.",
+    "emphasis": "Unforgettable presence.",
+    "summary": "An original cinematic fragrance experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#e9c5a7",
+    "secondary": "#62463c",
+    "background": "#16120f",
+    "foreground": "#fff5e9",
+    "concept": "bottle",
+    "layout": "editorial",
+    "chapters": [
+      "A new ritual",
+      "Notes that linger",
+      "Crafted for the senses"
+    ]
+  },
+  {
+    "id": "eyewear-atelier",
+    "name": "Eyewear Design Atelier",
+    "category": "eyewear",
+    "eyebrow": "FRAMES OF EXPRESSION",
+    "headline": "See beyond",
+    "emphasis": "the expected.",
+    "summary": "An original cinematic eyewear experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#f6ddba",
+    "secondary": "#a48365",
+    "background": "#151613",
+    "foreground": "#fff9eb",
+    "concept": "eyewear",
+    "layout": "gallery",
+    "chapters": [
+      "Frames as objects",
+      "Every line matters",
+      "Made for perspective"
+    ]
+  },
+  {
+    "id": "audio-soundstage",
+    "name": "Immersive Audio Soundstage",
+    "category": "audio",
+    "eyebrow": "HEAR THE DIFFERENCE",
+    "headline": "Designed to",
+    "emphasis": "move you.",
+    "summary": "An original cinematic audio experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#c3cbff",
+    "secondary": "#686bb0",
+    "background": "#090d19",
+    "foreground": "#f0efff",
+    "concept": "speaker",
+    "layout": "wide",
+    "chapters": [
+      "The space between notes",
+      "Sound, made tangible",
+      "Listen more closely"
+    ]
+  },
+  {
+    "id": "furniture-form",
+    "name": "Contemporary Furniture Studio",
+    "category": "furniture",
+    "eyebrow": "LIVING WITH FORM",
+    "headline": "Rooms become",
+    "emphasis": "expressions.",
+    "summary": "An original cinematic furniture experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#dfc2a2",
+    "secondary": "#6a5847",
+    "background": "#171813",
+    "foreground": "#f6f1e6",
+    "concept": "chair",
+    "layout": "gallery",
+    "chapters": [
+      "Designed to inhabit",
+      "Texture and balance",
+      "Spaces with character"
+    ]
+  },
+  {
+    "id": "hospitality-escape",
+    "name": "Hospitality & Retreat Experience",
+    "category": "hospitality",
+    "eyebrow": "ARRIVE SOMEWHERE ELSE",
+    "headline": "Stay for",
+    "emphasis": "the feeling.",
+    "summary": "An original cinematic hospitality experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#e1ddbe",
+    "secondary": "#839890",
+    "background": "#0e1918",
+    "foreground": "#f4faef",
+    "concept": "architecture",
+    "layout": "editorial",
+    "chapters": [
+      "A place to arrive",
+      "Room to discover",
+      "The art of unwinding"
+    ]
+  },
+  {
+    "id": "beauty-ritual",
+    "name": "Beauty & Skincare Ritual",
+    "category": "beauty",
+    "eyebrow": "BEAUTY IN THE DETAILS",
+    "headline": "A ritual,",
+    "emphasis": "reimagined.",
+    "summary": "An original cinematic beauty experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#ffd3da",
+    "secondary": "#9a687c",
+    "background": "#23151d",
+    "foreground": "#fff4f6",
+    "concept": "bottle",
+    "layout": "gallery",
+    "chapters": [
+      "An intentional routine",
+      "Form meets feeling",
+      "A modern beauty ritual"
+    ]
+  },
+  {
+    "id": "outdoor-expedition",
+    "name": "Outdoor & Adventure Gear",
+    "category": "outdoor",
+    "eyebrow": "BUILT FOR THE OUTSIDE",
+    "headline": "Find your",
+    "emphasis": "next horizon.",
+    "summary": "An original cinematic outdoor experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#d4e6aa",
+    "secondary": "#63794d",
+    "background": "#151d13",
+    "foreground": "#f2f7e9",
+    "concept": "gear",
+    "layout": "wide",
+    "chapters": [
+      "The call of distance",
+      "Details that matter",
+      "Made for exploration"
+    ]
+  },
+  {
+    "id": "culinary-artisan",
+    "name": "Artisan Food & Beverage",
+    "category": "food",
+    "eyebrow": "CRAFTED TO BE SAVORED",
+    "headline": "Taste has",
+    "emphasis": "a story.",
+    "summary": "An original cinematic food experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#e6ba87",
+    "secondary": "#805237",
+    "background": "#1f1611",
+    "foreground": "#fff4e5",
+    "concept": "cup",
+    "layout": "editorial",
+    "chapters": [
+      "Where flavor begins",
+      "An everyday ritual",
+      "Made to savor"
+    ]
+  },
+  {
+    "id": "sport-performance",
+    "name": "Sports Performance Lab",
+    "category": "sports",
+    "eyebrow": "MOVE WITHOUT LIMITS",
+    "headline": "Every second",
+    "emphasis": "counts.",
+    "summary": "An original cinematic sports experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#b9eff1",
+    "secondary": "#27797e",
+    "background": "#071b20",
+    "foreground": "#efffff",
+    "concept": "ball",
+    "layout": "wide",
+    "chapters": [
+      "Built for the moment",
+      "Performance in motion",
+      "Find your rhythm"
+    ]
+  },
+  {
+    "id": "learning-lab",
+    "name": "Interactive Learning Experience",
+    "category": "education",
+    "eyebrow": "CURIOSITY IN MOTION",
+    "headline": "Learn by",
+    "emphasis": "exploring.",
+    "summary": "An original cinematic education experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#b6d2ff",
+    "secondary": "#557cb8",
+    "background": "#0d1425",
+    "foreground": "#f1f6ff",
+    "concept": "planet",
+    "layout": "grid",
+    "chapters": [
+      "Ask a bigger question",
+      "Explore the system",
+      "Make knowledge visible"
+    ]
+  },
+  {
+    "id": "gaming-universe",
+    "name": "Gaming Hardware & Worlds",
+    "category": "gaming",
+    "eyebrow": "ENTER ANOTHER REALITY",
+    "headline": "Play beyond",
+    "emphasis": "the screen.",
+    "summary": "An original cinematic gaming experience with careful visual storytelling and interactive product presentation.",
+    "accent": "#d3bcff",
+    "secondary": "#6748b0",
+    "background": "#10091e",
+    "foreground": "#f6f0ff",
+    "concept": "controller",
+    "layout": "wide",
+    "chapters": [
+      "Discover the world",
+      "Interact with precision",
+      "Designed for immersion"
+    ]
+  }
+]

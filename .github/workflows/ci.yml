@@ -1,0 +1,21 @@
+name: Cinematic Toolkit Checks
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npm run check:premium
+      - name: Upload build artifact on success
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cinematic-site-dist
+          path: dist
+          if-no-files-found: error

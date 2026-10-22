@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "template": "fashion-runway",
+  "brand": "MAISON V\u00c9RA \u00b7 DEMO",
+  "category": "fashion",
+  "eyebrow": "AUTUMN / WINTER \u2014 SPATIAL ARCHIVE",
+  "headline": "Architecture you",
+  "emphasis": "inhabit.",
+  "heroImagePath": null,
+  "summary": "Fictional luxury fashion visual concept. Editorial imagery and product photography are illustrative until actual merchandise and licensed 3D assets are provided.",
+  "accent": "#e8c7b8",
+  "secondary": "#8c5854",
+  "background": "#120e10",
+  "foreground": "#faf2ef",
+  "concept": "fabric",
+  "layout": "editorial",
+  "chapters": [
+    "Sculpted kinetic footwear engineered for equilibrium",
+    "Architectural cashmere and silk drapery in motion",
+    "Micro-mechanical horology and titanium ateliers"
+  ],
+  "products": [
+    {
+      "id": "mv-footwear-01",
+      "name": "Aether Carbon Runner",
+      "category": "footwear",
+      "concept": "sneaker",
+      "description": "Sculpted dual-density sole with anatomical heel counter and hand-lasted matte calfskin upper. Shown as a labeled conceptual 3D silhouette.",
+      "modelPath": null,
+      "imagePath": null,
+      "price": 68000,
+      "currency": "INR",
+      "purchaseUrl": null,
+      "specs": {
+        "Silhouette": "Conceptual 3D Sneaker Study",
+        "Lighting Profile": "Directional Runway Key + Rim"
+      },
+      "hotspots": [
+        {
+          "id": "snk-sole",
+          "label": "Sculpted Midsole",
+          "description": "Beveled geometric sole profile with kinetic rebound",
+          "position": [
+            0.4,
+            -0.35,
+            0.3
+          ]
+        },
+        {
+          "id": "snk-lacing",
+          "label": "Tension Lacing",
+          "description": "Asymmetricfour-point lockdown bridge",
+          "position": [
+            -0.1,
+            0.35,
+            0.35
+          ]
+        },
+        {
+          "id": "snk-collar",
+          "label": "Anatomical Collar",
+          "description": "High-ankle architectural support cuff",
+          "position": [
+            -0.7,
+            0.42,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mv-clothing-02",
+      "name": "Nocturne Sculpted Cashmere Trench",
+      "category": "clothing",
+      "concept": "fabric",
+      "description": "Double-faced storm cashmere coat with continuous bias-cut drape and concealed horn closures. Shown as an abstract textile flow 3D study.",
+      "modelPath": null,
+      "imagePath": null,
+      "price": 245000,
+      "currency": "INR",
+      "purchaseUrl": null,
+      "specs": {
+        "Silhouette": "Conceptual 3D Textile Torus-Knot",
+        "Lighting Profile": "Soft Editorial Diffused Fill"
+      },
+      "hotspots": [
+        {
+          "id": "fab-drape",
+          "label": "Bias-Cut Drape",
+          "description": "Continuous sculptural fold geometry",
+          "position": [
+            0.55,
+            0.3,
+            0.4
+          ]
+        },
+        {
+          "id": "fab-weave",
+          "label": "620gsm Cashmere Weave",
+          "description": "Low-sheen brushed surface roughness",
+          "position": [
+            -0.5,
+            -0.25,
+            0.35
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mv-watch-03",
+      "name": "Chronos Calibre IX Tourbillon",
+      "category": "watches",
+      "concept": "watch",
+      "description": "Grade-5 brushed rose-gold-toned titanium case housing an openworked manual-wind calibre and bevelled indices. Shown as a conceptual 3D horology study.",
+      "modelPath": null,
+      "imagePath": null,
+      "price": 890000,
+      "currency": "INR",
+      "purchaseUrl": null,
+      "specs": {
+        "Silhouette": "Conceptual 3D Horology Study",
+        "Lighting Profile": "High-Contrast Metallic Macro Rig"
+      },
+      "hotspots": [
+        {
+          "id": "wtc-bezel",
+          "label": "Brushed Bezel",
+          "description": "Hand-satinated metallic case ring",
+          "position": [
+            0.65,
+            0.2,
+            0.15
+          ]
+        },
+        {
+          "id": "wtc-hands",
+          "label": "Faceted Hands",
+          "description": "Diamond-cut hour and minute hands",
+          "position": [
+            0.05,
+            0.15,
+            0.22
+          ]
+        },
+        {
+          "id": "wtc-lug",
+          "label": "Integrated Strap Lug",
+          "description": "Articulated chassis attachment",
+          "position": [
+            0,
+            -0.95,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mv-accessory-04",
+      "name": "Solstice Titanium Optical Frame",
+      "category": "accessories",
+      "concept": "eyewear",
+      "description": "Featherweight Japanese beta-titanium twin-rim sunglasses with custom nose bridge and mineral-tinted lenses. Shown as a conceptual 3D eyewear study.",
+      "modelPath": null,
+      "imagePath": null,
+      "price": 54000,
+      "currency": "INR",
+      "purchaseUrl": null,
+      "specs": {
+        "Silhouette": "Conceptual 3D Eyewear Frame",
+        "Lighting Profile": "Studio Gallery Specular Rig"
+      },
+      "hotspots": [
+        {
+          "id": "eye-bridge",
+          "label": "Sculpted Bridge",
+          "description": "Machined single-piece titanium nose bridge",
+          "position": [
+            0,
+            0.18,
+            0.1
+          ]
+        },
+        {
+          "id": "eye-lens",
+          "label": "Mineral Sun Lens",
+          "description": "Semi-transparent optical shader",
+          "position": [
+            0.76,
+            0,
+            0.05
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mv-accessory-05",
+      "name": "Aurelia Interlocking Vermeil Rings",
+      "category": "accessories",
+      "concept": "rings",
+      "description": "Tri-band architectural ring stack cast in recycled 18k gold vermeil crowned with an octahedral crystal study.",
+      "modelPath": null,
+      "imagePath": null,
+      "price": 115000,
+      "currency": "INR",
+      "purchaseUrl": null,
+      "specs": {
+        "Silhouette": "Conceptual 3D Tri-Ring & Crystal",
+        "Lighting Profile": "Fine Jewellery Specular Rig"
+      },
+      "hotspots": [
+        {
+          "id": "rng-stone",
+          "label": "Octahedral Crown",
+          "description": "Physical transmission refractive cut",
+          "position": [
+            0,
+            0.72,
+            0.15
+          ]
+        },
+        {
+          "id": "rng-band",
+          "label": "Tri-Axis Bands",
+          "description": "High-metalness interlocking torus rings",
+          "position": [
+            0.35,
+            -0.1,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mv-accessory-06",
+      "name": "Nomad Architectural Weekender Pack",
+      "category": "accessories",
+      "concept": "gear",
+      "description": "Structured saddle-leather and ballistic canvas travel pack with twin anodized side cylinders and modular front pocket.",
+      "modelPath": null,
+      "imagePath": null,
+      "price": 142000,
+      "currency": "INR",
+      "purchaseUrl": null,
+      "specs": {
+        "Silhouette": "Conceptual 3D Structured Pack",
+        "Lighting Profile": "Architectural Warm Gallery Rig"
+      },
+      "hotspots": [
+        {
+          "id": "pak-handle",
+          "label": "Reinforced Top Arch",
+          "description": "Hand-stitched tubular leather grip",
+          "position": [
+            0,
+            1.04,
+            0.1
+          ]
+        },
+        {
+          "id": "pak-pocket",
+          "label": "Modular Utility Vault",
+          "description": "Structured exterior compartment",
+          "position": [
+            0,
+            -0.53,
+            0.45
+          ]
+        }
+      ]
+    }
+  ],
+  "experience": {
+    "mood": "fashion",
+    "camera": "runway",
+    "motion": "editorial",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "recipe": [
+    "filmstrip",
+    "product-rail",
+    "compare",
+    "spotlight"
+  ],
+  "supportEmail": null,
+  "assetMode": "fictional-demo",
+  "materialImages": []
+}

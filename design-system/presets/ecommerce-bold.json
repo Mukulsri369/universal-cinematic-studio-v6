@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce-bold",
+  "colors": {
+    "background": "#141414",
+    "surface": "#242424",
+    "primary": "#F97316",
+    "accent": "#FACC15",
+    "text": "#FFFFFF"
+  },
+  "font": "DM Sans",
+  "radius": "12px",
+  "motion": "product image entrance, intentional emphasis",
+  "layout": "promo strip, grid and comparison sections"
+}

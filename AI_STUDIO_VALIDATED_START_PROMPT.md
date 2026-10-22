@@ -1,0 +1,13 @@
+# Paste into Google AI Studio **after importing this repository from GitHub**
+
+You are developing with **Universal Cinematic Studio v6.1**, not starting from a blank template. My objective: "Create a professional 3D cinematic website for [BUSINESS/BRAND], selling [PRODUCT CATEGORIES], with [DESIRED EXPERIENCE]." Use the imported source files instead of treating their GitHub links as reference-only.
+
+**Stage 1 — Inspect & install:** Locate `package.json`, `AGENTS.md`, `component-manifest.json`, `site-templates.json`, `composition-recipes.json`, `experience-presets.json`, `docs/AI_STUDIO_INTEGRATION_RELEASE_GATE.md` and the `src/studio` renderer. Confirm the source files are actually in this workspace. Run `npm install` if available. Do not invent terminal outputs. If install is unavailable, explain and stop before claiming tests pass.
+
+**Stage 2 — Creative architecture:** Select the most appropriate of 24 industry directions or combine 4 unique modules from the 10 available. Reuse exported React components, real Motion/GSAP interactions, Three/R3F/Drei, optimized lighting and performance safeguards. Match layout, photography treatment, motion intensity, typography and product interaction to my actual category; avoid repeating an identical hero for every brand. Keep semantic structure and reduced-motion / keyboard navigation. Use the existing modules and brand's product catalog; do not fabricate prices, specifications or exact 3D product models.
+
+**Stage 3 — Production quality:** For each product, use an owner-provided licensed GLB and images if supplied; otherwise display an explicitly labeled conceptual 3D object and request real asset files. Optimize texture size, WebGL complexity, mobile DPR, loading and non-WebGL fallback. Implement responsive layouts, accessible CTAs and stable scroll transitions. Avoid heavy autoplay videos and costly effects on budget devices. Do not use protected brand assets unless supplied or licensed.
+
+**Stage 4 — Verify with evidence:** Run `npm run check:offline`, `npm run typecheck`, `npm run build`; then open desktop/mobile previews and inspect for missing imports, runtime errors, blank canvases, failed GLB loads, layout overflow, focus traps, reduced-motion behavior and WebGL fallback. Fix failures and rerun. Report actual commands and whether each PASSED/FAILED/NOT RUN. Never claim Apple-quality, photorealism, production readiness or compatibility solely because a manifest/source audit passes.
+
+Finally deliver a polished, ORIGINAL luxury-grade site appropriate to the brand, plus the files changed, dependencies installed, real asset requirements, and any remaining blockers.

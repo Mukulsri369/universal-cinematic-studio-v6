@@ -1,0 +1,19 @@
+{
+  "release": "Universal Cinematic Studio v6",
+  "releaseDate": "2026-10-22",
+  "packageFormat": "GitHub repository root (no enclosing directory)",
+  "fileCount": 163,
+  "industryDirections": 24,
+  "componentExportEntries": 75,
+  "newCinematicSectionExports": 10,
+  "newProcedural3DConceptExports": 6,
+  "unitTestsPassed": 7,
+  "sourceAuditsPassed": true,
+  "typescriptSyntaxFilesPassed": 88,
+  "npmInstall": "Attempted; timed out",
+  "typecheck": "Not run; dependencies unavailable",
+  "productionBuild": "Not run; dependencies unavailable",
+  "browserVisualTest": "Not run",
+  "githubUpload": "Not performed",
+  "photorealProductModelsBundled": false
+}

@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "version": "6.4.0",
+  "templates": [
+    {
+      "template": "luxury-product",
+      "category": "product",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "lighting-studio",
+      "category": "lighting",
+      "components": [
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery",
+        "cinematicscrollworld"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": true,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "jewelry-atelier",
+      "category": "jewelry",
+      "components": [
+        "maskedimagereveal",
+        "stickychapterstory",
+        "cinematicscrollworld",
+        "kineticheadline"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": true,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "automotive-motion",
+      "category": "automotive",
+      "components": [
+        "cinematicscrollworld",
+        "scrollvideojourney",
+        "kineticheadline",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": true,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "fashion-runway",
+      "category": "fashion",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "pinnedhorizontalgallery",
+        "cursorpreviewlist"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "cosmic-experience",
+      "category": "cosmic",
+      "components": [
+        "cinematicscrollworld",
+        "scrollframesequence",
+        "stickychapterstory",
+        "kineticheadline"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": true,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "creator-commerce",
+      "category": "affiliate",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "tech-launch",
+      "category": "tech",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "architecture-gallery",
+      "category": "architecture",
+      "components": [
+        "stickychapterstory",
+        "maskedimagereveal",
+        "pinnedhorizontalgallery",
+        "cursorpreviewlist"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "wellness-organic",
+      "category": "wellness",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "saas-interactive",
+      "category": "saas",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "art-exhibition",
+      "category": "art",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "footwear-lab",
+      "category": "footwear",
+      "components": [
+        "cinematicscrollworld",
+        "pinnedhorizontalgallery",
+        "maskedimagereveal",
+        "kineticheadline"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": true,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "fragrance-noir",
+      "category": "fragrance",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "eyewear-atelier",
+      "category": "eyewear",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "audio-soundstage",
+      "category": "audio",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "furniture-form",
+      "category": "furniture",
+      "components": [
+        "maskedimagereveal",
+        "stickychapterstory",
+        "cinematicscrollworld",
+        "cursorpreviewlist"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": true,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "hospitality-escape",
+      "category": "hospitality",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "beauty-ritual",
+      "category": "beauty",
+      "components": [
+        "maskedimagereveal",
+        "kineticheadline",
+        "cursorpreviewlist",
+        "stickychapterstory"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "outdoor-expedition",
+      "category": "outdoor",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "culinary-artisan",
+      "category": "food",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "sport-performance",
+      "category": "sports",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "learning-lab",
+      "category": "education",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    },
+    {
+      "template": "gaming-universe",
+      "category": "gaming",
+      "components": [
+        "kineticheadline",
+        "maskedimagereveal",
+        "stickychapterstory",
+        "pinnedhorizontalgallery"
+      ],
+      "mediaPolicy": {
+        "photographicHero": true,
+        "sourcePhotos": true,
+        "realGlbRequiredFor3d": false,
+        "videoOptional": true
+      },
+      "direction": "Original editorial motion; no cartoon merchandise; original photographic imagery with consent and rights documentation",
+      "mobile": "unpin galleries, show still photo posters for expensive effects",
+      "reducedMotion": "disable scrub and reveal final states"
+    }
+  ]
+}

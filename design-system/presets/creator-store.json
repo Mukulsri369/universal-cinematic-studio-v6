@@ -1,0 +1,14 @@
+{
+  "name": "creator-store",
+  "colors": {
+    "background": "#FBF8F3",
+    "surface": "#FFFFFF",
+    "primary": "#7C3AED",
+    "accent": "#F59E0B",
+    "text": "#18181B"
+  },
+  "font": "Inter",
+  "radius": "20px",
+  "motion": "hover transitions, product reveal",
+  "layout": "editorial hero, curated product grids"
+}

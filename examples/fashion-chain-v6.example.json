@@ -1,0 +1,11 @@
+{
+  "brand": "ATELIER TEST / DEMO",
+  "category": "fashion",
+  "summary": "Concept demonstration of a fashion collection. Replace every placeholder with approved brand copy and verified data before publication.",
+  "products": [
+    {"id":"f-demo-1","name":"Concept Sneaker","category":"footwear","concept":"sneaker","description":"Demo object, not available for purchase.","modelPath":null,"imagePath":null,"price":null,"currency":"INR","purchaseUrl":null},
+    {"id":"f-demo-2","name":"Concept Sunglasses","category":"eyewear","concept":"eyewear","description":"Demo object, not available for purchase.","modelPath":null,"imagePath":null,"price":null,"currency":"INR","purchaseUrl":null},
+    {"id":"f-demo-3","name":"Concept Watch","category":"accessories","concept":"watch","description":"Demo object, not available for purchase.","modelPath":null,"imagePath":null,"price":null,"currency":"INR","purchaseUrl":null},
+    {"id":"f-demo-4","name":"Concept Clothing","category":"apparel","concept":"fabric","description":"Abstract textile concept, not an exact garment.","modelPath":null,"imagePath":null,"price":null,"currency":"INR","purchaseUrl":null}
+  ]
+}

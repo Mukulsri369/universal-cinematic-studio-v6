@@ -1,0 +1,2 @@
+import type {ButtonHTMLAttributes} from 'react';import {cn} from '@/lib/utils';
+export function Chip({selected=false,className='',...props}:ButtonHTMLAttributes<HTMLButtonElement>&{selected?:boolean}){return <button type="button" {...props} aria-pressed={selected} className={cn('rounded-full border px-4 py-2 text-xs font-medium transition-colors focus-visible:outline-2 focus-visible:outline-violet-400',selected?'border-violet-400 bg-violet-500/30 text-white':'border-white/20 bg-white/5 text-white/70 hover:bg-white/10',className)}/>}

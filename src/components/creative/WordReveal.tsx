@@ -1,0 +1,2 @@
+import {motion,useReducedMotion} from 'motion/react';
+export function WordReveal({text,className=''}:{text:string;className?:string}){const reduced=useReducedMotion();return <span className={className} aria-label={text}>{text.split(' ').map((word,i)=><motion.span aria-hidden="true" key={`${word}-${i}`} className="mr-[.25em] inline-block" initial={reduced?false:{opacity:0,y:16}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:i*.055,duration:.4}}>{word}</motion.span>)}</span>}

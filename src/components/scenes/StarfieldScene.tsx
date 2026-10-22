@@ -1,0 +1,2 @@
+import {Suspense} from 'react';import {Canvas} from '@react-three/fiber';import {Stars,OrbitControls} from '@react-three/drei';
+export function StarfieldScene(){return <div aria-label="Interactive stars scene" className="h-[360px] overflow-hidden rounded-2xl"><Canvas dpr={[1,1.5]} camera={{position:[0,0,5]}}><color attach="background" args={['#020413']}/><ambientLight intensity={1}/><Suspense fallback={null}><Stars radius={90} depth={55} count={1700} factor={3} saturation={0} fade speed={.5}/></Suspense><OrbitControls enableZoom={false} enablePan={false}/></Canvas></div>}

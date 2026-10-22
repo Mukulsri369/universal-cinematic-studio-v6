@@ -1,0 +1,12 @@
+{
+  "brand":"YOUR FASHION BRAND / DEMO",
+  "category":"fashion",
+  "headline":"Dress for",
+  "emphasis":"the unexpected.",
+  "summary":"Demo fashion range. All products, descriptions and prices require replacement before publishing.",
+  "products":[
+    {"id":"shoe-001","name":"Concept Sneaker","description":"Placeholder concept, not a listed product","modelPath":null,"imagePath":null,"price":null,"currency":"INR","purchaseUrl":null},
+    {"id":"dress-001","name":"Concept Dress","description":"Placeholder silhouette, not a real garment model","modelPath":null,"imagePath":null,"price":null,"currency":"INR","purchaseUrl":null},
+    {"id":"watch-001","name":"Concept Watch","description":"Placeholder design study","modelPath":null,"imagePath":null,"price":null,"currency":"INR","purchaseUrl":null}
+  ]
+}

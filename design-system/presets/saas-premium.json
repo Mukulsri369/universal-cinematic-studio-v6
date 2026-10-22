@@ -1,0 +1,14 @@
+{
+  "name": "saas-premium",
+  "colors": {
+    "background": "#080B16",
+    "surface": "#111629",
+    "primary": "#8B5CF6",
+    "accent": "#22D3EE",
+    "text": "#F8FAFC"
+  },
+  "font": "Inter",
+  "radius": "16px",
+  "motion": "subtle spring",
+  "layout": "bento, sticky nav, clarity-first"
+}

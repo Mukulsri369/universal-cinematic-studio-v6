@@ -1,0 +1,2 @@
+import {motion,useScroll,useSpring} from 'motion/react';
+export function ScrollProgress({className=''}:{className?:string}){const {scrollYProgress}=useScroll();const scaleX=useSpring(scrollYProgress,{stiffness:110,damping:25});return <motion.div aria-hidden="true" className={`pointer-events-none fixed inset-x-0 top-0 z-50 h-1 origin-left bg-gradient-to-r from-violet-500 via-cyan-400 to-fuchsia-500 ${className}`} style={{scaleX}}/>}

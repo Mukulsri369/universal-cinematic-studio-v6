@@ -1,0 +1,144 @@
+{
+  "version": "6.0.0",
+  "status": "source-complete-dependencies-not-installed",
+  "notes": "Original component exports, 24 site directions and external npm libraries; licensed production-quality models and production QA must be supplied separately. The complete 21st.dev marketplace and UI UX Pro Max skill are not bundled.",
+  "entries": [
+    {
+      "name": "Motion",
+      "type": "runtime-npm",
+      "package": "motion",
+      "import": "motion/react",
+      "example": "src/components/creative/Reveal.tsx"
+    },
+    {
+      "name": "GSAP",
+      "type": "runtime-npm",
+      "package": "gsap",
+      "example": "src/components/creative/MagneticButton.tsx"
+    },
+    {
+      "name": "Three.js",
+      "type": "runtime-npm",
+      "package": "three",
+      "example": "src/components/creative/ThreeStage.tsx"
+    },
+    {
+      "name": "React Three Fiber",
+      "type": "runtime-npm",
+      "package": "@react-three/fiber",
+      "example": "src/components/creative/ThreeStage.tsx"
+    },
+    {
+      "name": "Drei",
+      "type": "runtime-npm",
+      "package": "@react-three/drei",
+      "example": "src/components/creative/ThreeStage.tsx"
+    },
+    {
+      "name": "Lenis",
+      "type": "runtime-npm",
+      "package": "lenis",
+      "example": "src/components/creative/SmoothScroll.tsx"
+    },
+    {
+      "name": "Lucide React",
+      "type": "runtime-npm",
+      "package": "lucide-react",
+      "example": "src/App.tsx"
+    },
+    {
+      "name": "shadcn/ui",
+      "type": "registry-source-pattern",
+      "status": "locally compatible primitives; official registry components add-on-demand",
+      "example": "src/components/ui/button.tsx"
+    },
+    {
+      "name": "UI UX Pro Max",
+      "type": "ai-skill",
+      "status": "installation instructions only, not installed",
+      "upstream": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "name": "21st.dev",
+      "type": "external-component-marketplace-and-ai-skill",
+      "status": "CLI helper ready; no marketplace item downloaded",
+      "upstream": "https://github.com/21st-dev/skill",
+      "example": "scripts/21st.mjs"
+    },
+    {
+      "name": "21st Agent Elements",
+      "type": "optional-third-party-registry",
+      "status": "not installed; only needed for AI chat use cases",
+      "upstream": "https://github.com/21st-dev/agent-elements"
+    }
+  ],
+  "localComponents": [
+    "src/components/Orb.tsx",
+    "src/components/creative/AnimatedCounter.tsx",
+    "src/components/creative/AnimatedGradientButton.tsx",
+    "src/components/creative/AuroraBackground.tsx",
+    "src/components/creative/CountUp.tsx",
+    "src/components/creative/FloatingDock.tsx",
+    "src/components/creative/GradientBorderCard.tsx",
+    "src/components/creative/GradientText.tsx",
+    "src/components/creative/MagneticButton.tsx",
+    "src/components/creative/Marquee.tsx",
+    "src/components/creative/MorphingBlob.tsx",
+    "src/components/creative/ParallaxSection.tsx",
+    "src/components/creative/ParticleBackground.tsx",
+    "src/components/creative/Reveal.tsx",
+    "src/components/creative/ScrollProgress.tsx",
+    "src/components/creative/ScrollRevealImage.tsx",
+    "src/components/creative/SmoothScroll.tsx",
+    "src/components/creative/SpotlightCard.tsx",
+    "src/components/creative/StaggerGrid.tsx",
+    "src/components/creative/TextShimmer.tsx",
+    "src/components/creative/ThreeStage.tsx",
+    "src/components/creative/TiltCard.tsx",
+    "src/components/creative/TypewriterText.tsx",
+    "src/components/creative/WordReveal.tsx",
+    "src/components/scenes/FloatingGeometryScene.tsx",
+    "src/components/scenes/OrbitSystemScene.tsx",
+    "src/components/scenes/StarfieldScene.tsx",
+    "src/components/sections/BentoGrid.tsx",
+    "src/components/sections/FaqSection.tsx",
+    "src/components/sections/FeatureTimeline.tsx",
+    "src/components/sections/PricingCards.tsx",
+    "src/components/sections/ProductGrid.tsx",
+    "src/components/sections/Testimonials.tsx",
+    "src/components/ui/accordion.tsx",
+    "src/components/ui/alert.tsx",
+    "src/components/ui/avatar.tsx",
+    "src/components/ui/badge.tsx",
+    "src/components/ui/breadcrumb.tsx",
+    "src/components/ui/button.tsx",
+    "src/components/ui/card.tsx",
+    "src/components/ui/checkbox.tsx",
+    "src/components/ui/chip.tsx",
+    "src/components/ui/dialog.tsx",
+    "src/components/ui/dropdown-menu.tsx",
+    "src/components/ui/empty-state.tsx",
+    "src/components/ui/input.tsx",
+    "src/components/ui/kbd.tsx",
+    "src/components/ui/label.tsx",
+    "src/components/ui/pagination.tsx",
+    "src/components/ui/progress.tsx",
+    "src/components/ui/select.tsx",
+    "src/components/ui/separator.tsx",
+    "src/components/ui/skeleton.tsx",
+    "src/components/ui/stat.tsx",
+    "src/components/ui/switch.tsx",
+    "src/components/ui/table.tsx",
+    "src/components/ui/tabs.tsx",
+    "src/components/ui/textarea.tsx",
+    "src/components/ui/tooltip.tsx",
+    "src/studio/modules/ExperienceModules.tsx",
+    "src/studio/experience/SectorConcepts.tsx"
+  ],
+  "expandedManifest": "component-manifest.json",
+  "templates": [
+    "src/templates/AffiliateStorePage.tsx",
+    "src/templates/CosmicLandingPage.tsx",
+    "src/templates/SaaSLandingPage.tsx"
+  ]
+}

@@ -1,0 +1,3 @@
+import type {ReactNode} from 'react';
+export type BentoItem={title:string;description:string;icon?:ReactNode;large?:boolean};
+export function BentoGrid({items}:{items:BentoItem[]}){return <div className="grid auto-rows-[190px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">{items.map((item,i)=><article key={i} className={`group overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-white/10 to-white/[.02] p-6 transition-colors hover:border-violet-400/50 ${item.large?'sm:col-span-2':''}`}><div className="mb-4 text-violet-300">{item.icon}</div><h3 className="text-lg font-bold">{item.title}</h3><p className="mt-2 text-sm text-white/55">{item.description}</p></article>)}</div>}

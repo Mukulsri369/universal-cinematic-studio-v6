@@ -1,0 +1,2 @@
+import type {ReactNode} from 'react';
+export function Stat({label,value,trend,icon}:{label:string;value:ReactNode;trend?:string;icon?:ReactNode}){return <div className="rounded-2xl border border-white/10 bg-white/5 p-6">{icon&&<span className="text-violet-300">{icon}</span>}<p className="mt-3 text-sm text-white/50">{label}</p><div className="mt-2 text-3xl font-bold">{value}</div>{trend&&<div className="mt-2 text-xs text-emerald-300">{trend}</div>}</div>}

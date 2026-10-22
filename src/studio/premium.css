@@ -1,0 +1,13 @@
+/* Original composable editorial polish: user motion/contrast preferences take priority. */
+.cs-site{font-optical-sizing:auto;-webkit-font-smoothing:antialiased}
+.cs-site :focus-visible{outline:2px solid var(--cs-accent);outline-offset:4px}
+.cs-site .cs-primary:focus-visible,.cs-site .cs-product-visual:focus-visible{outline:3px solid var(--cs-accent)}
+.cs-site .cs-product-visual{isolation:isolate;backface-visibility:hidden}
+.cs-site .cs-product:hover .cs-product-art-ring{filter:drop-shadow(0 0 25px color-mix(in srgb,var(--cs-accent) 34%,transparent))}
+.cs-hotspot{display:flex;gap:7px;align-items:center;color:#fff;font:12px/1.25 ui-sans-serif,system-ui;max-width:180px;user-select:none;pointer-events:none}
+.cs-hotspot-dot{display:block;width:12px;height:12px;border:2px solid white;border-radius:50%;background:#202020;box-shadow:0 0 0 5px #fff4;flex:none}
+.cs-hotspot-copy{display:flex;flex-direction:column;border:1px solid #fff4;background:#0c0d11e8;backdrop-filter:blur(9px);padding:7px 9px;border-radius:8px}
+.cs-hotspot-copy small{font-size:10px;color:#dfdce0;line-height:1.45}
+@media (max-width:680px){.cs-hotspot-copy{max-width:125px;padding:5px 6px}.cs-hotspot-copy small{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.cs-site *, .cs-site *::before,.cs-site *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+@media(prefers-contrast:more){.cs-site .cs-eyebrow,.cs-site .cs-product-id{color:var(--cs-text)!important}}

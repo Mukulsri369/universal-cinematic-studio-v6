@@ -1,0 +1,266 @@
+{
+  "luxury-product": {
+    "hero": "editorial",
+    "modules": [
+      "editorial",
+      "product-rail",
+      "material",
+      "spotlight"
+    ],
+    "motionPace": "precision",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "lighting-studio": {
+    "hero": "gallery",
+    "modules": [
+      "editorial",
+      "material",
+      "filmstrip",
+      "process"
+    ],
+    "motionPace": "slow",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "jewelry-atelier": {
+    "hero": "editorial",
+    "modules": [
+      "material",
+      "spotlight",
+      "manifesto",
+      "filmstrip"
+    ],
+    "motionPace": "precision",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "automotive-motion": {
+    "hero": "cinematic",
+    "modules": [
+      "spotlight",
+      "process",
+      "compare",
+      "metrics"
+    ],
+    "motionPace": "kinetic",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "fashion-runway": {
+    "hero": "editorial",
+    "modules": [
+      "filmstrip",
+      "product-rail",
+      "manifesto",
+      "material"
+    ],
+    "motionPace": "editorial",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "cosmic-experience": {
+    "hero": "cinematic",
+    "modules": [
+      "metrics",
+      "manifesto",
+      "filmstrip",
+      "spotlight"
+    ],
+    "motionPace": "immersive",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "creator-commerce": {
+    "hero": "editorial",
+    "modules": [
+      "material",
+      "category-index",
+      "spotlight",
+      "filmstrip"
+    ],
+    "motionPace": "editorial",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "tech-launch": {
+    "hero": "cinematic",
+    "modules": [
+      "spotlight",
+      "process",
+      "compare",
+      "metrics"
+    ],
+    "motionPace": "kinetic",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "architecture-gallery": {
+    "hero": "gallery",
+    "modules": [
+      "editorial",
+      "material",
+      "filmstrip",
+      "process"
+    ],
+    "motionPace": "slow",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "wellness-organic": {
+    "hero": "editorial",
+    "modules": [
+      "category-index",
+      "spotlight",
+      "metrics",
+      "material"
+    ],
+    "motionPace": "slow",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "saas-interactive": {
+    "hero": "editorial",
+    "modules": [
+      "editorial",
+      "product-rail",
+      "material",
+      "spotlight"
+    ],
+    "motionPace": "precision",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "art-exhibition": {
+    "hero": "gallery",
+    "modules": [
+      "filmstrip",
+      "process",
+      "compare",
+      "spotlight"
+    ],
+    "motionPace": "immersive",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "footwear-lab": {
+    "hero": "cinematic",
+    "modules": [
+      "filmstrip",
+      "product-rail",
+      "manifesto",
+      "material"
+    ],
+    "motionPace": "editorial",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "fragrance-noir": {
+    "hero": "editorial",
+    "modules": [
+      "material",
+      "spotlight",
+      "manifesto",
+      "filmstrip"
+    ],
+    "motionPace": "slow",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "eyewear-atelier": {
+    "hero": "gallery",
+    "modules": [
+      "filmstrip",
+      "product-rail",
+      "manifesto",
+      "material"
+    ],
+    "motionPace": "precision",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "audio-soundstage": {
+    "hero": "cinematic",
+    "modules": [
+      "spotlight",
+      "process",
+      "compare",
+      "metrics"
+    ],
+    "motionPace": "kinetic",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "furniture-form": {
+    "hero": "gallery",
+    "modules": [
+      "editorial",
+      "material",
+      "filmstrip",
+      "process"
+    ],
+    "motionPace": "slow",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "hospitality-escape": {
+    "hero": "editorial",
+    "modules": [
+      "editorial",
+      "material",
+      "filmstrip",
+      "process"
+    ],
+    "motionPace": "slow",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "beauty-ritual": {
+    "hero": "gallery",
+    "modules": [
+      "filmstrip",
+      "product-rail",
+      "manifesto",
+      "material"
+    ],
+    "motionPace": "slow",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "outdoor-expedition": {
+    "hero": "cinematic",
+    "modules": [
+      "category-index",
+      "spotlight",
+      "metrics",
+      "filmstrip"
+    ],
+    "motionPace": "immersive",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "culinary-artisan": {
+    "hero": "editorial",
+    "modules": [
+      "material",
+      "spotlight",
+      "manifesto",
+      "filmstrip"
+    ],
+    "motionPace": "slow",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "sport-performance": {
+    "hero": "cinematic",
+    "modules": [
+      "spotlight",
+      "process",
+      "compare",
+      "metrics"
+    ],
+    "motionPace": "kinetic",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "learning-lab": {
+    "hero": "editorial",
+    "modules": [
+      "spotlight",
+      "metrics",
+      "manifesto",
+      "process"
+    ],
+    "motionPace": "editorial",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  },
+  "gaming-universe": {
+    "hero": "cinematic",
+    "modules": [
+      "spotlight",
+      "process",
+      "compare",
+      "metrics"
+    ],
+    "motionPace": "immersive",
+    "imageTreatment": "original-assets-or-labeled-concept"
+  }
+}

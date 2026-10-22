@@ -1,0 +1,170 @@
+{
+  "luxury-product": {
+    "mood": "gallery",
+    "camera": "reveal",
+    "motion": "precision",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "lighting-studio": {
+    "mood": "warm-gallery",
+    "camera": "architectural",
+    "motion": "slow",
+    "effects": "glow",
+    "productInteraction": "orbit"
+  },
+  "jewelry-atelier": {
+    "mood": "jewelry",
+    "camera": "macro",
+    "motion": "precision",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "automotive-motion": {
+    "mood": "automotive",
+    "camera": "sweep",
+    "motion": "kinetic",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "fashion-runway": {
+    "mood": "fashion",
+    "camera": "runway",
+    "motion": "editorial",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "cosmic-experience": {
+    "mood": "cosmic",
+    "camera": "orbit",
+    "motion": "immersive",
+    "effects": "glow",
+    "productInteraction": "orbit"
+  },
+  "creator-commerce": {
+    "mood": "gallery",
+    "camera": "reveal",
+    "motion": "editorial",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "tech-launch": {
+    "mood": "tech",
+    "camera": "sweep",
+    "motion": "kinetic",
+    "effects": "glow",
+    "productInteraction": "orbit"
+  },
+  "architecture-gallery": {
+    "mood": "architectural",
+    "camera": "architectural",
+    "motion": "slow",
+    "effects": "none",
+    "productInteraction": "orbit"
+  },
+  "wellness-organic": {
+    "mood": "daylight",
+    "camera": "reveal",
+    "motion": "slow",
+    "effects": "none",
+    "productInteraction": "orbit"
+  },
+  "saas-interactive": {
+    "mood": "tech",
+    "camera": "reveal",
+    "motion": "precision",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "art-exhibition": {
+    "mood": "cosmic",
+    "camera": "orbit",
+    "motion": "immersive",
+    "effects": "glow",
+    "productInteraction": "orbit"
+  },
+  "footwear-lab": {
+    "mood": "fashion",
+    "camera": "runway",
+    "motion": "editorial",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "fragrance-noir": {
+    "mood": "jewelry",
+    "camera": "macro",
+    "motion": "slow",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "eyewear-atelier": {
+    "mood": "gallery",
+    "camera": "reveal",
+    "motion": "precision",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "audio-soundstage": {
+    "mood": "tech",
+    "camera": "sweep",
+    "motion": "kinetic",
+    "effects": "glow",
+    "productInteraction": "orbit"
+  },
+  "furniture-form": {
+    "mood": "architectural",
+    "camera": "architectural",
+    "motion": "slow",
+    "effects": "none",
+    "productInteraction": "orbit"
+  },
+  "hospitality-escape": {
+    "mood": "warm-gallery",
+    "camera": "architectural",
+    "motion": "slow",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "beauty-ritual": {
+    "mood": "daylight",
+    "camera": "reveal",
+    "motion": "slow",
+    "effects": "none",
+    "productInteraction": "orbit"
+  },
+  "outdoor-expedition": {
+    "mood": "architectural",
+    "camera": "sweep",
+    "motion": "immersive",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "culinary-artisan": {
+    "mood": "warm-gallery",
+    "camera": "reveal",
+    "motion": "slow",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "sport-performance": {
+    "mood": "automotive",
+    "camera": "sweep",
+    "motion": "kinetic",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "learning-lab": {
+    "mood": "daylight",
+    "camera": "orbit",
+    "motion": "editorial",
+    "effects": "soft",
+    "productInteraction": "orbit"
+  },
+  "gaming-universe": {
+    "mood": "tech",
+    "camera": "orbit",
+    "motion": "immersive",
+    "effects": "glow",
+    "productInteraction": "orbit"
+  }
+}

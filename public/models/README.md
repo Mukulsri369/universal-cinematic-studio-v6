@@ -1,0 +1,1 @@
+Put licensed product-specific GLB files here (recommended: optimized glTF binary with KTX2 textures / Draco or Meshopt where your loader setup supports it). Reference with `/models/my-product.glb`. Realistic appearance depends on model geometry, PBR textures, HDR/light calibration and browser QA. No production models are supplied.

@@ -1,0 +1,2 @@
+export type Testimonial={quote:string;name:string;role?:string};
+export function Testimonials({items}:{items:Testimonial[]}){return <div className="grid gap-4 md:grid-cols-3">{items.map((item,i)=><blockquote key={i} className="rounded-2xl border border-white/10 bg-white/5 p-6"><p className="leading-7 text-white/75">“{item.quote}”</p><footer className="mt-6 border-t border-white/10 pt-4"><span className="font-semibold">{item.name}</span>{item.role&&<span className="block text-xs text-white/45">{item.role}</span>}</footer></blockquote>)}</div>}

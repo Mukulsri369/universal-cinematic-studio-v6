@@ -25,9 +25,11 @@ test('API errors and invalid JSON fail without echoing response bodies',async()=
   await assert.rejects(readImageResponse(new Response('{broken'),'hero'),/Malformed Interactions JSON/);
   await assert.rejects(readImageResponse(Response.json({error:{message:'private-error-body'}}),'hero'),/^Error: Interactions API returned an error$/);
 });
-test('hero request uses 16:9, 2K inline image response configuration',()=>{
-  assert.deepEqual(buildImageRequest({model:'gemini-3.1-flash-image',input:'fictional campaign',aspectRatio:'16:9'}),{
-    model:'gemini-3.1-flash-image',input:'fictional campaign',response_format:{type:'image',delivery:'inline',aspect_ratio:'16:9',image_size:'2K'}
+test('serialized hero request preserves 16:9 and 2K without unsupported delivery mode',()=>{
+  const request=JSON.parse(JSON.stringify(buildImageRequest({model:'gemini-3.1-flash-image',input:'fictional campaign',aspectRatio:'16:9'})));
+  assert.equal(Object.hasOwn(request.response_format,'delivery'),false);
+  assert.deepEqual(request,{
+    model:'gemini-3.1-flash-image',input:'fictional campaign',response_format:{type:'image',aspect_ratio:'16:9',image_size:'2K'}
   });
 });
 test('hero CLI selects exactly one image and both spend flags are required before fetch',()=>{

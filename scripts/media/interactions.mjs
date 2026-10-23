@@ -3,8 +3,8 @@ import {detectRaster} from './core.mjs';
 import {errorDiagnostics} from './errors.mjs';
 
 export function buildImageRequest({model,input,aspectRatio,imageSize='2K'}) {
-  // MIME selection is optional; request inline delivery for the local writer.
-  return {model,input,response_format:{type:'image',delivery:'inline',aspect_ratio:aspectRatio,image_size:imageSize}};
+  // Omit delivery: the image API rejects explicit delivery mode selection.
+  return {model,input,response_format:{type:'image',aspect_ratio:aspectRatio,image_size:imageSize}};
 }
 
 export function getImage(body) {

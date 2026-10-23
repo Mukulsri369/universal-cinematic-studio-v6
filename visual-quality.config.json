@@ -11,9 +11,9 @@
     "requireTraceableProvenance": true
   },
   "assetProvision": {
-    "imageGenerationEnabled": false,
-    "imageGenerationProvider": "opt-in Gemini API via server-side media:generate CLI",
-    "assetsAvailable": false,
+    "imageGenerationEnabled": true,
+    "imageGenerationProvider": "Gemini API gemini-3.1-flash-image",
+    "assetsAvailable": true,
     "generationNeverRunsInBuild": true,
     "costApprovalRequired": true
   },

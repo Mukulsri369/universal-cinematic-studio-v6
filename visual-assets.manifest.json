@@ -1,14 +1,23 @@
 {
   "schemaVersion": 2,
-  "siteBrand": "MAISON V\u00c9RA \u00b7 FICTIONAL DEMO",
+  "siteBrand": "MAISON VÉRA · FICTIONAL DEMO",
   "hero": {
-    "path": null,
+    "path": "/images/demo/hero.jpg",
     "kind": "campaign-photo",
-    "source": "pending",
-    "rightsStatus": "pending",
+    "source": "generated",
+    "rightsStatus": "approved",
     "fictionalCampaign": true,
-    "alt": "Editorial campaign featuring luxury fashion styling",
-    "desiredPath": "/images/demo/hero.png"
+    "alt": "Fictional MAISON VÉRA campaign photograph",
+    "desiredPath": "/images/demo/hero.jpg",
+    "approvalScope": "fictional demonstration only",
+    "generatedWith": "gemini-3.1-flash-image",
+    "prompt": "ORIGINAL FICTIONAL CONCEPT, photographically believable, sophisticated art-direction, real-world anatomy and physics, professional optics, true materials and fabric texture, plausible shadows, restrained natural color grading, editorial craft. Never use cartoon, CGI toy, 3D render look, vector art, gradients pretending to be imagery, captions, watermarks, logos, branded emblems, nonsense writing, duplicate limbs or deformed geometry. Not an image of a real purchasable SKU. Campaign photograph for fictional MAISON VÉRA. Brand category fashion: couture construction, fabric drape, runway-level styling, actual textile microtexture. A striking real photographic scene with compelling human/subject focus when appropriate to industry; cinematic but photoreal lighting, believable environment and subtle deep shadows. Strong negative space on left for HTML typography, product/editorial subject on the RIGHT. Full-bleed landscape 16:9. Palette inspiration #120e10, #e8c7b8. Harmonized across all shots.",
+    "createdAt": "2026-10-23T03:22:53.191Z",
+    "sha256": "b627601c1e334c6e68106883df2f609b28bc3082ba5dc9d42dc1723515435252",
+    "dimensions": [
+      2752,
+      1536
+    ]
   },
   "products": [
     {

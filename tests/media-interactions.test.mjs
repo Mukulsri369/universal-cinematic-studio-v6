@@ -19,7 +19,9 @@ test('malformed response, base64 and raster data are rejected',()=>{
     {output_image:{...image,mime_type:'image/jpeg'}},{status:'failed',output_image:image}]) assert.throws(()=>getImage(body));
 });
 test('API errors and invalid JSON fail without echoing response bodies',async()=>{
-  for(const status of [400,401,403,429,500]) await assert.rejects(readImageResponse(new Response('private-error-body',{status}),'hero'),new RegExp(`hero: API HTTP ${status}$`));
+  for(const status of [400,401,403,429,500]) await assert.rejects(readImageResponse(new Response('private-error-body',{status}),'hero'),error=>{
+    assert.match(error.message,new RegExp(`hero: API HTTP ${status};`));assert.doesNotMatch(error.message,/private-error-body/);return true;
+  });
   await assert.rejects(readImageResponse(new Response('{broken'),'hero'),/Malformed Interactions JSON/);
   await assert.rejects(readImageResponse(Response.json({error:{message:'private-error-body'}}),'hero'),/^Error: Interactions API returned an error$/);
 });

@@ -1,5 +1,6 @@
 /** Pure request/response helpers. Importing this module never makes API calls. */
 import {detectRaster} from './core.mjs';
+import {errorDiagnostics} from './errors.mjs';
 
 export function buildImageRequest({model,input,aspectRatio,imageSize='2K'}) {
   // MIME selection is optional; request inline delivery for the local writer.
@@ -28,9 +29,13 @@ export function getImage(body) {
   return buffer;
 }
 
-export async function readImageResponse(response,id) {
-  // Do not echo remote error bodies: they may contain credentials or inputs.
-  if (!response.ok) throw Error(`${id}: API HTTP ${response.status}`);
+export async function readImageResponse(response,id,options={}) {
+  if (!response.ok) {
+    const diagnostics=await errorDiagnostics(response,options);
+    const error=new Error(`${id}: API HTTP ${response.status}; ${JSON.stringify(diagnostics)}`);
+    error.name='GeminiApiError';error.diagnostics=diagnostics;
+    throw error;
+  }
   let body;
   try { body=await response.json(); } catch { throw Error('Malformed Interactions JSON response'); }
   return getImage(body);

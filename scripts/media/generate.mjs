@@ -30,7 +30,8 @@ for (const entry of selected){
  }
  try {response=await fetch(endpoint,{method:'POST',signal:controller.signal,headers:{'Content-Type':'application/json','x-goog-api-key':key},body:JSON.stringify(buildImageRequest({model,input,aspectRatio:entry.aspectRatio,imageSize:plan.imageSize}))});}
  finally{clearTimeout(timeout);}
- const image=await readImageResponse(response,entry.id);const record=writeDemoAsset({entry,buffer:image,model,site,manifest});processed++;console.log(JSON.stringify({generated:entry.id,...record}));
+ const sensitiveInput=typeof input==='string'?[input]:input.flatMap(x=>[x.text,x.data]).filter(Boolean);
+ const image=await readImageResponse(response,entry.id,{secrets:[key,...sensitiveInput]});const record=writeDemoAsset({entry,buffer:image,model,site,manifest});processed++;console.log(JSON.stringify({generated:entry.id,...record}));
 }
 mode.presentationMode='fictional-demo';mode.assetProvision={imageGenerationEnabled:true,imageGenerationProvider:`Gemini API ${model}`,assetsAvailable:processed>0};save(modeFile,mode);
 console.log(JSON.stringify({status:'GENERATED_SOURCE_FILES_PENDING_VISUAL_APPROVAL',generatedCount:processed,disclosure:plan.disclosure,next:'Run npm run media:audit -- --mode demo and visually review all images in a browser.'}));
